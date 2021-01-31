@@ -1,14 +1,22 @@
 @import 'normalize.css';
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/fonts/opensans-regular.woff2') format('woff2'), url('/fonts/opensans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     max-width: 1080px;
     margin: auto;
+    font-family: 'open_sansregular', 'Times New Roman', Times, serif;
 }
 
-.clMain {
+.clMainInicio {
 
     display: grid;
     grid-template-columns: 0.6fr 1.4fr 1fr 1fr;
-    grid-template-rows: 0.3fr 1.8fr  0.7fr 1.6fr 1.8fr 0.6fr;
+    grid-template-rows: 0.2fr 1.8fr  0.7fr 1.6fr 1.8fr 0fr;
     gap: 0px 0px;
     justify-items: stretch;
     align-items: stretch;
@@ -21,11 +29,28 @@ body{
       "clFooter clFooter clFooter clFooter";
   }
 
-  .clMenu { 
+
+  .clMainContacto {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr 1fr 1fr;
+    grid-template-rows: 0.18fr 1.8fr  3.3fr  0fr;
+    gap: 0px 0px;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+      "clMenu clMenu clMenu clMenu"
+      "clHeader clHeader clHeader clHeader"
+      "clSidebarL clSectionForm clSectionForm clSectionForm"
+      "clFooter clFooter clFooter clFooter";
+  }
+
+
+
+  .clMenu {
       grid-area: clMenu;
       position: fixed;
       z-index: 1;
-      background-color: rgb(107, 107, 107);
+      background-color: rgba(34,34,34,1);
       top: 0;
       left: 0;
       right: 0;
@@ -37,9 +62,17 @@ body{
 
      }
 
-     .clMenu ul,li,a{
-        list-style: none ;
-        text-decoration: none;
+
+ .clMainInicio .linkInicio{
+       background-color: rgba(69,69,69,1);
+     }
+
+     .clMainContacto .linkContacto{
+           background-color: rgba(69,69,69,1);
+         }
+
+
+     .clMenu ul, li, a{
         padding: 10px;
         margin: 0;
      }
@@ -47,13 +80,17 @@ body{
      .clMenu > ul {
         display: flex;
         flex-direction: row;
+                list-style: none ;
      }
      .clMenu a {
          color: whitesmoke;
+         text-transform: uppercase;
+         text-align: center;
+         text-decoration: none;
      }
 
-  
-     .clHeader { 
+
+     .clHeader {
         grid-area: clHeader;
        background-image: url('../images/photoHeader.jpg');
        background-position: center;
@@ -61,28 +98,27 @@ body{
        background-size: cover;
         margin: 0;
         position: relative;
-        top: -24px;
+padding: 0
    }
-   
-   .clHeader h1, h2{
+
+   .clHeader >h1,    .clHeader > h2{
       text-decoration: none;
       color: whitesmoke;
       text-transform: uppercase;
       text-align: center;
       position: absolute;
       margin: 0;
+          left: 50%;
+              transform: translate(-50%, -50%);
    }
 
 .clHeader h1 {
-    left: 50%;
     top: 35%;
-    transform: translate(-50%, -50%)
-}
 
+}
 .clHeader h2 {
-    left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%)
+
 }
 
   .clHeader:before {
@@ -94,23 +130,133 @@ body{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
-  
 
-  .clSidebarL { 
-      grid-area: clSidebarL; 
-      margin: 0;
+
+  .clSidebarL {
+      grid-area: clSidebarL;
         background-color: tan;
+        padding: 10px;
+        display: flex;
+max-width: 200px;
+        flex-direction: column;
+        font-size: 14px;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 500px;
     }
-
     .clSidebarL >  img{
         border-radius: 100px;
+        border: 1px solid black;
+        width: 100px;
+        margin: 10px;
+        margin-top: 20px;
+
     }
-  
+
+    .clSidebarL .clrrss{
+      display: flex;
+      flex-direction: row;
+    }
+
+
+
+.clSidebarL .clspan {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin: 20px;
+  flex-grow: 2
+}
+
+
+.clspan span {
+  margin: 5px
+}
+
+.clrrss img {
+align-items: center;
+    width: 30px;
+    }
+
   .clVideo { grid-area: clVideo; }
-  
-  .clFavorites { grid-area: clFavorites; }
-  
-  .clSchedule { grid-area: clSchedule; }
-  
-  .clFooter { grid-area: clFooter; }
-  
+
+  .clFavorites {
+     grid-area: clFavorites;
+     background-color: rgba(190,190,190,1);
+    }
+
+  [data-gama='sport']:hover{
+           list-style-image: url('../images/liSport.png');
+    }
+
+    [data-gama='touring']:hover{
+           list-style-image: url('../images/liTouring.png');
+      }
+
+      [data-gama='offroad']:hover{
+           list-style-image: url('../images/liOffroad.png');
+        }
+
+  .clSchedule {
+    grid-area: clSchedule;
+display: flex;
+justify-content: center;
+background-color: rgba(191,164,160,1);
+padding: 20px;
+  }
+
+  .clSchedule th {
+
+    background-color: rgba(51,51,51,1);
+    color: whitesmoke;
+    font-style: italic;
+  }
+
+.clTableSchedule .rowOdd {
+  background-color: rgba(194,213,212,1);
+}
+
+.clTableSchedule .rowEven {
+  background-color: rgba(223,223,175,1);
+}
+
+.clSectionForm {
+   grid-area: clSectionForm;
+   margin: 10px;
+   padding: 10px;
+  }
+
+#idform> input:required {
+      border: 1px solid red;
+  }
+
+#idform{
+  display: flex;
+  flex-direction: column;
+}
+
+#idform *{
+margin: 3px;
+}
+
+#idform button:active{
+  transform: scale(1.05);
+}
+
+
+  .clFooter {
+    color:white;
+    grid-area: clFooter;
+    background: rgba(41,41,41,1);
+    padding: 5px;
+    text-align: center;
+  }
+
+.clFooter>a{
+  color:white;
+  font-size: small;
+}
+
+.clFooter>a:visited{
+  color: gray;
+}

@@ -6,62 +6,110 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Moto y pasión</title>
         <link rel="shortcut icon" href="./favicon.png" type="image/png">
+                <link rel="stylesheet" href="./src/styles/style.css">
     </head>
 
     <body>
-        <main class="clMain">
-            <header class="clHeader">
-                <h1>Moto y pasión</h1>
-                <h2>Rueda bien, rueda libre, rueda seguro</h2>
-            </header>
-            <nav class="clMenu">
-                <ul>
-                    <li><a href="/index.html">Inicio</a></li>
-                    <li><a href="/contact.html">Contacto</a></li>
-                </ul>
-            </nav>
+        <main class="clMainContacto">
+          <header class="clHeader">
+            <h1>Moto y pasión</h1>
+            <h2>Rueda bien, rueda libre, rueda seguro</h2>
+          </header>
+          <nav class="clMenu">
+            <ul>
+              <li><a class="linkInicio" href="/index.html">Inicio</a></li>
+              <li><a class="linkContacto" href="/contact.html">Contacto</a></li>
+            </ul>
+          </nav>
 
             <div class="clSidebarL">
-                <img src="" alt="photoAuthor">
-                <span>Nombre</span>
-                <span>Edad</span>
-                <span>Ciudad</span>
-                <a href="https://www.facebook.com/">Facebook</a>
-                <a href="https://www.linkedin.com/">Linkedin</a>
-                <a href="https://www.youtube.com/">Youtube</a>
-                <a href="https://www.twitch.tv/">Twitch</a>
+
+              <img src="./src/images/photoAuthor.png" alt="photoAuthor" id="photoAuthor">
+
+              <div class="clspan">
+                <span>Nolo García</span>
+                <span>30 años</span>
+                <span>Vigo</span>
+              </div>
+
+              <div class="clrrss">
+                <a href="https://www.facebook.com/">
+                  <img id="logo-facebook" src="./src/images/logoFacebook.svg" alt="log facebook" title="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <img id="logo-linkedin" src="./src/images/logoLinkedin.svg" alt="log linkedin" title="Linkedin">
+
+                </a>
+                <a href="https://www.youtube.com/">
+                  <img id="logo-youtube" src="./src/images/logoYoutube.svg" alt="log youtube" title="Youtube">
+                </a>
+                <a href="https://www.twitch.tv/">
+                  <img id="logo-twich" src="./src/images/logoTwich.svg" alt="log twich" title="Twich">
+
+                </a>
+              </div>
 
             </div>
 
             <section class="clSectionForm">
-                <form action="" id="idform">
+                <form action="" id="idform" method="get">
                     <h2>Formulario de contacto</h2>
-                    <label for="nombre">Nombre de usuario</label>
-                    <input type="text" name="nombre" id="nombre" autofocus placeholder="Nombre...." required/>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required placeholder="xxxxxx@xxxxxx.[com,es,net]">
-                    <label for="url">URL de tu web</label>
-                    <input type="url" name="url" id="url" placeholder="Escribe la url de tu web">
-                    <label for="fecha">Fecha</label>
-                    <input type="date" id="fecha" name="fecha">
-                    <label for="tiempo">Tiempo</label>
-                    <input type="time" name="tiempo" id="tiempo">
-                    <label for="fechaHora">Fecha-hora</label>
-                    <input type="datetime" name="fechaHora" id="fechaHora">
+
+                    <fieldset>
+                        <legend>Información Personal</legend>
+                      <label for="nombre">Nombre de usuario</label>
+                      <input type="text" name="nombre" id="nombre" autofocus placeholder="Nombre...." required/>
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email" required placeholder="xxxxxx@xxxxxx.[com,es,net]">
+                      <label for="url">URL de tu web</label>
+                      <input type="url" name="url" id="url" placeholder="Escribe la url de tu web">
+                    </fieldset>
+<fieldset>
+    <legend>Tipo Horario</legend>
+  <label for="fecha">Fecha</label>
+  <input type="date" id="fecha" name="fecha">
+  <label for="tiempo">Tiempo</label>
+  <input type="time" name="tiempo" id="tiempo">
+  <label for="fechaHora">Fecha-hora</label>
+  <input type="datetime" name="fechaHora" id="fechaHora">
+</fieldset>
+                  <fieldset>
+                      <legend>Número</legend>
                     <label for="numero">Número</label>
                     <input type="number" name="numero" id="numero" max="10" min="-10" step="1" value="0">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" name="telefono" id="telefono" placeholder="+34 número de telefono">
+                  </fieldset>
+<fieldset>
+    <legend>Teléfono</legend>
+  <label for="telefono">Teléfono</label>
+  <input type="tel" name="telefono" id="telefono" placeholder="+34 número de telefono">
+
+</fieldset>
+
+                <fieldset>
+                      <legend>Buscar</legend>
                     <label for="buscar" name="buscar">Buscar</label>
-                    <input type="search" name="buscar" id="buscar">
-                    <label for="colorfavorito">Color favorito</label>
-                    <input type="color" name="colorfavorito" id="colorfavorito">
-                    <label for="mes">Mes</label>
-                    <input type="month" name="mes" id="mes">
-                    <label for="semana">Semana</label>
-                    <input type="week" name="semana" id="semana">
-                    <label for="masinfo">Mensaje</label>
-                    <textarea name="masinfo" id="masinfo" cols="30" rows="10"></textarea>
+                        <input type="search" name="buscar" id="buscar">
+                </fieldset>
+
+<fieldset>
+      <legend>Color</legend>
+  <label for="colorfavorito">Color favorito</label>
+  <input type="color" name="colorfavorito" id="colorfavorito">
+</fieldset>
+
+<fieldset>
+      <legend>Calendario</legend>
+  <label for="mes">Mes</label>
+  <input type="month" name="mes" id="mes">
+  <label for="semana">Semana</label>
+  <input type="week" name="semana" id="semana">
+</fieldset>
+<fieldset>
+      <legend>Más info</legend>
+  <label for="masinfo">Mensaje</label>
+  <textarea name="masinfo" id="masinfo" cols="30" rows="10"></textarea>
+</fieldset>
+
                     <button type="submit">Enviar</button>
                 </form>
             </section>
