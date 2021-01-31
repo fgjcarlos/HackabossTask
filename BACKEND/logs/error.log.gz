@@ -1,0 +1,22 @@
+2021-01-31 -- 22:41:36:4136 -- error: validateRegister is not a function
+2021-01-31 -- 22:43:16:4316 -- error: data and salt arguments required
+2021-01-31 -- 22:43:43:4343 -- error: data and salt arguments required
+2021-01-31 -- 22:44:02:442 -- error: data and salt arguments required
+2021-01-31 -- 22:44:50:4450 -- error: data and salt arguments required
+2021-01-31 -- 22:46:15:4615 -- error: Email must have the following structure: name@xxxx.[com, es, net]
+2021-01-31 -- 22:46:38:4638 -- error: The name entered is not valid
+2021-01-31 -- 22:46:48:4648 -- error: The surname entered is not valid
+2021-01-31 -- 22:46:58:4658 -- error: Password must have 8 caracters min.
+2021-01-31 -- 22:47:12:4712 -- error: file is not defined
+2021-01-31 -- 22:47:53:4753 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:49:02:492 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:50:22:5022 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:51:40:5140 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:52:06:526 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:52:34:5234 -- error: info.push is not a function
+2021-01-31 -- 22:55:01:551 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:56:19:5619 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 22:58:24:5824 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 23:00:13:013 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 23:00:58:058 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-01-31 -- 23:05:51:551 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
