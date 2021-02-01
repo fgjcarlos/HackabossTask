@@ -20,3 +20,23 @@
 2021-01-31 -- 23:00:13:013 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
 2021-01-31 -- 23:00:58:058 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
 2021-01-31 -- 23:05:51:551 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 12:04:59:459 -- error: newUser.join is not a function
+2021-02-01 -- 12:05:20:520 -- error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object
+2021-02-01 -- 12:06:01:61 -- error: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 12:06:52:652 -- error: ENOENT: no such file or directory, open '../../db/db.json'
+2021-02-01 -- 12:09:42:942 -- error: ENOENT: no such file or directory, open '../../db/db.json'
+2021-02-01 -- 12:10:08:108 -- error: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object
+2021-02-01 -- 12:10:29:1029 -- error: ENOENT: no such file or directory, open '../../db/db.json'
+2021-02-01 -- 12:11:49:1149 -- error: ENOENT: no such file or directory, open '../../db/db.json'
+2021-02-01 -- 12:13:22:1322 -- error: ENOENT: no such file or directory, open 'db/db.json'
+2021-02-01 -- 12:18:23:1823 -- error: JSON.stringify(...).join is not a function
+2021-02-01 -- 13:27:56:2756 -- error: e is not defined
+2021-02-01 -- 13:28:22:2822 -- error: fs is not defined
+2021-02-01 -- 13:28:22:2822 -- error: res is not defined
+2021-02-01 -- 13:28:22:2822 -- error: res is not defined
+2021-02-01 -- 13:29:10:2910 -- error: fs is not defined
+2021-02-01 -- 13:29:10:2910 -- error: /home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:33:40:3340 -- error: fs is not defined
+2021-02-01 -- 13:33:40:3340 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:33:40:3340 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:40:08:408 -- error: fs is not defined

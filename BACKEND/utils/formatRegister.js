@@ -1,14 +1,14 @@
 const formatRegister =(name, surname, email, password) => {
 
 const templateRegister ={
-    "Nombre": name,
-    "Apellido": surname,
-    "Email": email,
-    "Contraseña": password,
-    "FechaCreacion": new Date()
+    Nombre: name,
+    Apellido: surname,
+    Email: email,
+    Contraseña: password,
+    FechaCreacion: new Date()
 }
 
-return templateRegister
+return templateRegister;
 
 }
 

@@ -1,25 +1,59 @@
 const jsonfile = require('jsonfile');
-const fileData = './db.json';
+const {logger} = require('../app/config/logger');
+const fileData = '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json';
+const fs = require('fs');
 
-const getInfoDB = () =>{
-
-console.log('get info')
-
-    return jsonfile.readFileSync(fileData);
+const getInfoDB = async () => {
+    return await jsonfile.readFileSync(fileData);
 }
 
-const insertNewUser= (newUser) =>{
+const insertNewUser = async (req,res,newUser) => {
 
-    let info =getInfoDB();
 
-    console.log(info);
+    try { // Checkif exist file
 
-    info.push(newUser);
 
-    jsonfile.writeFileSync(fileData, newUser);   
+console.log(newUser);
+
+        await existFile(fileData);
+
+        // Get info thet contain json
+        let res = await getInfoDB();
+
+        console.log('op:res',res);
+
+        res.push(newUser);
+
+        console.log('op:res',res);
+
+        await jsonfile.writeFileSync(fileData, res);
+
+    } catch (e) {
+        let msgError = ('Error register new user', e.message);
+        logger.error(msgError);
+        res.status(500).json({error: msgError});
+    }
 }
 
-module.exports={
+
+const existFile = async (req,res) => {
+
+    try { // 1. Check exist file
+        if (await fs.existsSync(fileData)) {
+            logger.info('The path exists, add new user');
+        } else {
+            await fs.writeFileSync(fileData, '[]', {encoding: 'utf8'});
+            logger.info('create new file');
+        }
+
+    } catch (e) {
+        let msgError = ('Error in exist file', e.message);
+        logger.error(msgError);
+        res.status(500).json({error: msgError});
+    }
+}
+
+module.exports = {
     getInfoDB,
     insertNewUser
 }

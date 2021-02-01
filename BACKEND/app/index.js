@@ -12,8 +12,6 @@ const app = express();
  const routerHome = require('../routes/home');
  const routerRegister = require('../routes/register');
  
-
-
 // Middlewares
 app.use(cors());
 app.use(bodyParser.json());
@@ -27,8 +25,6 @@ app.use(logger.requests);
  app.use('/home', routerHome);
 // Regsiter
 app.use('/register', routerRegister );
-
-
 
 // **** Router not found ****
 // No router found handler
