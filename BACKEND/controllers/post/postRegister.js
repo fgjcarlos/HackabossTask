@@ -8,25 +8,16 @@ const {insertNewUser} = require('../../db/operationsDB');
 const register = async (req, res) => { // 1. Get params
     let {name, surname, email, password} = req.body;
 
-    try { // 2.0 validate parameters
+    try {
 
-        await validateRegister.validateAsync({name, surname, email, password});
-
-
-
-        // 3. Post new admin
         // Encrypt password
         const passwordEncrypt = await bcrypt.hash(password, parseInt(process.env.PASSWORD_LEN));
 
         // Format new user
         const newUser = await formatRegister(name, surname, email, passwordEncrypt);
 
-        console.log(name, surname, email, passwordEncrypt)
-
-        console.log('new User post',newUser);
-
         // Insert into db new user
-        await insertNewUser(req,res,newUser);
+        await insertNewUser(newUser);
 
         let msgInfo = 'Register new user sucessfull';
 

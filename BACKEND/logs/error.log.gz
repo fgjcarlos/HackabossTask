@@ -40,3 +40,53 @@
 2021-02-01 -- 13:33:40:3340 -- error: Cannot read property 'status' of undefined
 2021-02-01 -- 13:33:40:3340 -- error: Cannot read property 'status' of undefined
 2021-02-01 -- 13:40:08:408 -- error: fs is not defined
+2021-02-01 -- 13:53:06:536 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:53:06:536 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:53:06:536 -- error: Cannot set headers after they are sent to the client
+2021-02-01 -- 13:54:13:5413 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:54:13:5413 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:54:13:5413 -- error: Cannot set headers after they are sent to the client
+2021-02-01 -- 13:55:45:5545 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:55:45:5545 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:55:45:5545 -- error: Cannot set headers after they are sent to the client
+2021-02-01 -- 13:57:09:579 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:09:579 -- error: /home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:51:5751 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:51:5751 -- error: /home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:58:55:5855 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:01:05:15 -- error: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 14:37:19:3719 -- error: validateRegister is not defined
+2021-02-01 -- 14:41:50:4150 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:42:06:426 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:42:33:4233 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:44:26:4426 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 14:44:49:4449 -- error: ./db/db.json: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 14:45:16:4516 -- error: db/db.json: ENOENT: no such file or directory, open 'db/db.json'
+2021-02-01 -- 14:45:27:4527 -- error: /db/db.json: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 14:45:39:4539 -- error: ./db/db.json: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 14:48:22:4822 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:52:18:5218 -- error: /db/db.json: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 14:52:38:5238 -- error: BACKEND/db/db.json: ENOENT: no such file or directory, open 'BACKEND/db/db.json'
+2021-02-01 -- 14:52:58:5258 -- error: ~/db/db.json: ENOENT: no such file or directory, open '~/db/db.json'
+2021-02-01 -- 14:53:35:5335 -- error: ~/HackabossTask/db/db.json: ENOENT: no such file or directory, open '~/HackabossTask/db/db.json'
+2021-02-01 -- 14:54:06:546 -- error: ~/HackabossTask/ BACKEND/db/db.json: ENOENT: no such file or directory, open '~/HackabossTask/ BACKEND/db/db.json'
+2021-02-01 -- 14:54:17:5417 -- error: ~/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '~/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:54:57:5457 -- error: /home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:56:35:5635 -- error: /home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:57:28:5728 -- error: /home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:58:48:5848 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:59:10:5910 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 15:00:44:044 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:01:31:131 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:01:41:141 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 15:01:53:153 -- error: ./db/db.json: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 15:02:16:216 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:04:14:414 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 15:04:40:440 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:04:58:458 -- error: /db/db.json: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 15:05:33:533 -- error: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 15:30:08:308 -- error: Email must have the following structure: name@xxxx.[com, es, net]
+2021-02-01 -- 15:30:15:3015 -- error: The name entered is not valid
+2021-02-01 -- 15:30:43:3043 -- error: The user with email usesdfrrwr@user5w5.com already exists
+2021-02-01 -- 15:30:53:3053 -- error: Email must have the following structure: name@xxxx.[com, es, net]
+2021-02-01 -- 15:30:59:3059 -- error: The user with email usesdfrrwr@user5w5.com already exists

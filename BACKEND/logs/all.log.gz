@@ -183,3 +183,282 @@
 2021-02-01 -- 13:39:50:3950 -- http: POST -- /register -- - -- 200 -- 39 - 114.109 ms
 2021-02-01 -- 13:40:05:405 -- info: listening on port 3000
 2021-02-01 -- 13:40:08:408 -- error: fs is not defined
+2021-02-01 -- 13:52:44:5244 -- info: listening on port 3000
+2021-02-01 -- 13:52:53:5253 -- info: Home page
+2021-02-01 -- 13:52:53:5253 -- http: GET -- /home -- - -- 200 -- 20 - 9.741 ms
+2021-02-01 -- 13:52:59:5259 -- info: Home page
+2021-02-01 -- 13:52:59:5259 -- http: GET -- /home -- - -- 200 -- 20 - 3.547 ms
+2021-02-01 -- 13:53:06:536 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:53:06:536 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:53:06:536 -- debug: Register new user sucessfull
+2021-02-01 -- 13:53:06:536 -- error: Cannot set headers after they are sent to the client
+2021-02-01 -- 13:53:06:536 -- http: POST -- /register -- - -- 500 -- 54 - 127.002 ms
+2021-02-01 -- 13:54:09:549 -- info: listening on port 3000
+2021-02-01 -- 13:54:13:5413 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:54:13:5413 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:54:13:5413 -- debug: Register new user sucessfull
+2021-02-01 -- 13:54:13:5413 -- error: Cannot set headers after they are sent to the client
+2021-02-01 -- 13:54:13:5413 -- http: POST -- /register -- - -- 500 -- 54 - 122.165 ms
+2021-02-01 -- 13:55:37:5537 -- info: listening on port 3000
+2021-02-01 -- 13:55:45:5545 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:55:45:5545 -- error: Cannot read property 'status' of undefined
+2021-02-01 -- 13:55:45:5545 -- debug: Register new user sucessfull
+2021-02-01 -- 13:55:45:5545 -- error: Cannot set headers after they are sent to the client
+2021-02-01 -- 13:55:45:5545 -- http: POST -- /register -- - -- 500 -- 54 - 146.543 ms
+2021-02-01 -- 13:57:06:576 -- info: listening on port 3000
+2021-02-01 -- 13:57:09:579 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:09:579 -- error: /home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:09:579 -- debug: Register new user sucessfull
+2021-02-01 -- 13:57:09:579 -- http: POST -- /register -- - -- 200 -- 39 - 155.049 ms
+2021-02-01 -- 13:57:47:5747 -- info: listening on port 3000
+2021-02-01 -- 13:57:51:5751 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:51:5751 -- error: /home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:57:51:5751 -- debug: Register new user sucessfull
+2021-02-01 -- 13:57:51:5751 -- http: POST -- /register -- - -- 200 -- 39 - 152.852 ms
+2021-02-01 -- 13:58:52:5852 -- info: listening on port 3000
+2021-02-01 -- 13:58:55:5855 -- error: ENOENT: no such file or directory, open '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 13:58:55:5855 -- http: POST -- /register -- - -- 500 -- 123 - 134.093 ms
+2021-02-01 -- 14:00:50:050 -- info: listening on port 3000
+2021-02-01 -- 14:01:05:15 -- error: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 14:01:05:15 -- http: POST -- /register -- - -- 500 -- 66 - 151.628 ms
+2021-02-01 -- 14:01:28:128 -- info: listening on port 3000
+2021-02-01 -- 14:01:30:130 -- info: create new file
+2021-02-01 -- 14:01:30:130 -- debug: Register new user sucessfull
+2021-02-01 -- 14:01:30:130 -- http: POST -- /register -- - -- 200 -- 39 - 170.925 ms
+2021-02-01 -- 14:02:37:237 -- info: listening on port 3000
+2021-02-01 -- 14:02:42:242 -- info: create new file
+2021-02-01 -- 14:02:42:242 -- debug: Register new user sucessfull
+2021-02-01 -- 14:02:42:242 -- http: POST -- /register -- - -- 200 -- 39 - 158.048 ms
+2021-02-01 -- 14:03:22:322 -- info: The path exists, add new user
+2021-02-01 -- 14:03:22:322 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:22:322 -- http: POST -- /register -- - -- 200 -- 39 - 123.276 ms
+2021-02-01 -- 14:03:29:329 -- info: The path exists, add new user
+2021-02-01 -- 14:03:29:329 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:29:329 -- http: POST -- /register -- - -- 200 -- 39 - 134.607 ms
+2021-02-01 -- 14:03:31:331 -- info: The path exists, add new user
+2021-02-01 -- 14:03:31:331 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:31:331 -- http: POST -- /register -- - -- 200 -- 39 - 112.435 ms
+2021-02-01 -- 14:03:32:332 -- info: The path exists, add new user
+2021-02-01 -- 14:03:32:332 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:32:332 -- http: POST -- /register -- - -- 200 -- 39 - 108.276 ms
+2021-02-01 -- 14:03:33:333 -- info: The path exists, add new user
+2021-02-01 -- 14:03:33:333 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:33:333 -- http: POST -- /register -- - -- 200 -- 39 - 112.834 ms
+2021-02-01 -- 14:03:34:334 -- info: The path exists, add new user
+2021-02-01 -- 14:03:34:334 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:34:334 -- http: POST -- /register -- - -- 200 -- 39 - 142.919 ms
+2021-02-01 -- 14:03:35:335 -- info: The path exists, add new user
+2021-02-01 -- 14:03:35:335 -- debug: Register new user sucessfull
+2021-02-01 -- 14:03:35:335 -- http: POST -- /register -- - -- 200 -- 39 - 109.266 ms
+2021-02-01 -- 14:21:32:2132 -- info: listening on port 3000
+2021-02-01 -- 14:23:17:2317 -- info: listening on port 3000
+2021-02-01 -- 14:26:08:268 -- info: listening on port 3000
+2021-02-01 -- 14:37:14:3714 -- info: listening on port 3000
+2021-02-01 -- 14:37:19:3719 -- error: validateRegister is not defined
+2021-02-01 -- 14:37:19:3719 -- http: POST -- /register -- - -- 500 -- 31 - 6.513 ms
+2021-02-01 -- 14:37:58:3758 -- info: listening on port 3000
+2021-02-01 -- 14:38:03:383 -- info: The user with email user@user55.com already exists
+2021-02-01 -- 14:38:03:383 -- http: POST -- /register -- - -- 200 -- 52 - 13.022 ms
+2021-02-01 -- 14:40:23:4023 -- info: listening on port 3000
+2021-02-01 -- 14:40:27:4027 -- info: The user with email user@user55.com already exists
+2021-02-01 -- 14:40:27:4027 -- http: POST -- /register -- - -- 200 -- 61 - 12.887 ms
+2021-02-01 -- 14:40:46:4046 -- info: listening on port 3000
+2021-02-01 -- 14:40:51:4051 -- info: The user with email user@user55.com already exists
+2021-02-01 -- 14:40:51:4051 -- http: POST -- /register -- - -- 200 -- 62 - 17.158 ms
+2021-02-01 -- 14:41:04:414 -- info: The user with email user@user5w5.com already exists
+2021-02-01 -- 14:41:04:414 -- http: POST -- /register -- - -- 200 -- 63 - 2.798 ms
+2021-02-01 -- 14:41:17:4117 -- info: The user with email usewr@user5w5.com already exists
+2021-02-01 -- 14:41:17:4117 -- http: POST -- /register -- - -- 200 -- 64 - 4.543 ms
+2021-02-01 -- 14:41:20:4120 -- info: The user with email usewr@user5w5.com already exists
+2021-02-01 -- 14:41:20:4120 -- http: POST -- /register -- - -- 200 -- 64 - 1.739 ms
+2021-02-01 -- 14:41:45:4145 -- info: listening on port 3000
+2021-02-01 -- 14:41:50:4150 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:41:50:4150 -- http: POST -- /register -- - -- 500 -- 82 - 13.772 ms
+2021-02-01 -- 14:42:06:426 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:42:06:426 -- http: POST -- /register -- - -- 500 -- 82 - 5.315 ms
+2021-02-01 -- 14:42:31:4231 -- info: listening on port 3000
+2021-02-01 -- 14:42:33:4233 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:42:33:4233 -- http: POST -- /register -- - -- 500 -- 82 - 13.314 ms
+2021-02-01 -- 14:44:23:4423 -- info: listening on port 3000
+2021-02-01 -- 14:44:26:4426 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 14:44:26:4426 -- http: POST -- /register -- - -- 500 -- 74 - 14.229 ms
+2021-02-01 -- 14:44:46:4446 -- info: listening on port 3000
+2021-02-01 -- 14:44:49:4449 -- error: ./db/db.json: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 14:44:49:4449 -- http: POST -- /register -- - -- 500 -- 80 - 16.596 ms
+2021-02-01 -- 14:45:13:4513 -- info: listening on port 3000
+2021-02-01 -- 14:45:16:4516 -- error: db/db.json: ENOENT: no such file or directory, open 'db/db.json'
+2021-02-01 -- 14:45:16:4516 -- http: POST -- /register -- - -- 500 -- 76 - 15.023 ms
+2021-02-01 -- 14:45:24:4524 -- info: listening on port 3000
+2021-02-01 -- 14:45:27:4527 -- error: /db/db.json: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 14:45:27:4527 -- http: POST -- /register -- - -- 500 -- 78 - 13.341 ms
+2021-02-01 -- 14:45:37:4537 -- info: listening on port 3000
+2021-02-01 -- 14:45:39:4539 -- error: ./db/db.json: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 14:45:39:4539 -- http: POST -- /register -- - -- 500 -- 80 - 13.612 ms
+2021-02-01 -- 14:48:18:4818 -- info: listening on port 3000
+2021-02-01 -- 14:48:22:4822 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:48:22:4822 -- http: POST -- /register -- - -- 500 -- 82 - 15.047 ms
+2021-02-01 -- 14:52:16:5216 -- info: listening on port 3000
+2021-02-01 -- 14:52:18:5218 -- error: /db/db.json: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 14:52:18:5218 -- http: POST -- /register -- - -- 500 -- 78 - 19.829 ms
+2021-02-01 -- 14:52:35:5235 -- info: listening on port 3000
+2021-02-01 -- 14:52:38:5238 -- error: BACKEND/db/db.json: ENOENT: no such file or directory, open 'BACKEND/db/db.json'
+2021-02-01 -- 14:52:38:5238 -- http: POST -- /register -- - -- 500 -- 92 - 13.085 ms
+2021-02-01 -- 14:52:51:5251 -- info: listening on port 3000
+2021-02-01 -- 14:52:58:5258 -- error: ~/db/db.json: ENOENT: no such file or directory, open '~/db/db.json'
+2021-02-01 -- 14:52:58:5258 -- http: POST -- /register -- - -- 500 -- 80 - 16.258 ms
+2021-02-01 -- 14:53:33:5333 -- info: listening on port 3000
+2021-02-01 -- 14:53:35:5335 -- error: ~/HackabossTask/db/db.json: ENOENT: no such file or directory, open '~/HackabossTask/db/db.json'
+2021-02-01 -- 14:53:35:5335 -- http: POST -- /register -- - -- 500 -- 108 - 22.698 ms
+2021-02-01 -- 14:54:03:543 -- info: listening on port 3000
+2021-02-01 -- 14:54:06:546 -- error: ~/HackabossTask/ BACKEND/db/db.json: ENOENT: no such file or directory, open '~/HackabossTask/ BACKEND/db/db.json'
+2021-02-01 -- 14:54:06:546 -- http: POST -- /register -- - -- 500 -- 126 - 15.949 ms
+2021-02-01 -- 14:54:15:5415 -- info: listening on port 3000
+2021-02-01 -- 14:54:17:5417 -- error: ~/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '~/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:54:17:5417 -- http: POST -- /register -- - -- 500 -- 124 - 15.819 ms
+2021-02-01 -- 14:54:51:5451 -- info: listening on port 3000
+2021-02-01 -- 14:54:57:5457 -- error: /home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:54:57:5457 -- http: POST -- /register -- - -- 500 -- 190 - 18.982 ms
+2021-02-01 -- 14:56:35:5635 -- error: /home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:56:35:5635 -- http: POST -- /register -- - -- 500 -- 190 - 3.873 ms
+2021-02-01 -- 14:57:25:5725 -- info: listening on port 3000
+2021-02-01 -- 14:57:28:5728 -- error: /home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json: ENOENT: no such file or directory, open '/home/carrick/Escritorio/Hackaboss/HackabossTask/BACKEND/db/db.json'
+2021-02-01 -- 14:57:28:5728 -- http: POST -- /register -- - -- 500 -- 190 - 16.453 ms
+2021-02-01 -- 14:58:44:5844 -- info: listening on port 3000
+2021-02-01 -- 14:58:48:5848 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 14:58:48:5848 -- http: POST -- /register -- - -- 500 -- 82 - 19.244 ms
+2021-02-01 -- 14:59:07:597 -- info: listening on port 3000
+2021-02-01 -- 14:59:10:5910 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 14:59:10:5910 -- http: POST -- /register -- - -- 500 -- 74 - 19.318 ms
+2021-02-01 -- 15:00:41:041 -- info: listening on port 3000
+2021-02-01 -- 15:00:44:044 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:00:44:044 -- http: POST -- /register -- - -- 500 -- 82 - 24.542 ms
+2021-02-01 -- 15:01:27:127 -- info: listening on port 3000
+2021-02-01 -- 15:01:31:131 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:01:31:131 -- http: POST -- /register -- - -- 500 -- 82 - 17.474 ms
+2021-02-01 -- 15:01:39:139 -- info: listening on port 3000
+2021-02-01 -- 15:01:41:141 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 15:01:41:141 -- http: POST -- /register -- - -- 500 -- 74 - 19.251 ms
+2021-02-01 -- 15:01:50:150 -- info: listening on port 3000
+2021-02-01 -- 15:01:53:153 -- error: ./db/db.json: ENOENT: no such file or directory, open './db/db.json'
+2021-02-01 -- 15:01:53:153 -- http: POST -- /register -- - -- 500 -- 80 - 21.680 ms
+2021-02-01 -- 15:02:14:214 -- info: listening on port 3000
+2021-02-01 -- 15:02:16:216 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:02:16:216 -- http: POST -- /register -- - -- 500 -- 82 - 16.649 ms
+2021-02-01 -- 15:04:11:411 -- info: listening on port 3000
+2021-02-01 -- 15:04:14:414 -- error: ./db.json: ENOENT: no such file or directory, open './db.json'
+2021-02-01 -- 15:04:14:414 -- http: POST -- /register -- - -- 500 -- 74 - 18.696 ms
+2021-02-01 -- 15:04:38:438 -- info: listening on port 3000
+2021-02-01 -- 15:04:40:440 -- error: ../db/db.json: ENOENT: no such file or directory, open '../db/db.json'
+2021-02-01 -- 15:04:40:440 -- http: POST -- /register -- - -- 500 -- 82 - 17.662 ms
+2021-02-01 -- 15:04:55:455 -- info: listening on port 3000
+2021-02-01 -- 15:04:58:458 -- error: /db/db.json: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 15:04:58:458 -- http: POST -- /register -- - -- 500 -- 78 - 17.178 ms
+2021-02-01 -- 15:05:29:529 -- info: listening on port 3000
+2021-02-01 -- 15:05:33:533 -- error: ENOENT: no such file or directory, open '/db/db.json'
+2021-02-01 -- 15:05:33:533 -- http: POST -- /register -- - -- 500 -- 65 - 31.243 ms
+2021-02-01 -- 15:05:41:541 -- info: listening on port 3000
+2021-02-01 -- 15:05:43:543 -- info: create new file
+2021-02-01 -- 15:05:43:543 -- info: The user with email usewr@user5w5.com already exists
+2021-02-01 -- 15:05:43:543 -- http: POST -- /register -- - -- 200 -- 64 - 19.295 ms
+2021-02-01 -- 15:06:51:651 -- info: listening on port 3000
+2021-02-01 -- 15:06:54:654 -- info: The path exists, add new user
+2021-02-01 -- 15:06:54:654 -- debug: User not exist -->Register
+2021-02-01 -- 15:06:54:654 -- info: The path exists, add new user
+2021-02-01 -- 15:06:54:654 -- info: The path exists, add new user
+2021-02-01 -- 15:06:54:654 -- debug: Register new user sucessfull
+2021-02-01 -- 15:06:54:654 -- http: POST -- /register -- - -- 200 -- 39 - 146.811 ms
+2021-02-01 -- 15:07:43:743 -- info: listening on port 3000
+2021-02-01 -- 15:07:48:748 -- info: create new file
+2021-02-01 -- 15:07:48:748 -- debug: User not exist -->Register
+2021-02-01 -- 15:07:48:748 -- info: The path exists, add new user
+2021-02-01 -- 15:07:48:748 -- info: The path exists, add new user
+2021-02-01 -- 15:07:48:748 -- debug: Register new user sucessfull
+2021-02-01 -- 15:07:48:748 -- http: POST -- /register -- - -- 200 -- 39 - 169.490 ms
+2021-02-01 -- 15:08:12:812 -- info: The path exists, add new user
+2021-02-01 -- 15:08:12:812 -- info: The user with email usewr@user5w5.com already exists
+2021-02-01 -- 15:08:12:812 -- http: POST -- /register -- - -- 200 -- 64 - 7.199 ms
+2021-02-01 -- 15:08:20:820 -- info: The path exists, add new user
+2021-02-01 -- 15:08:20:820 -- info: The user with email useewr@user5w5.com already exists
+2021-02-01 -- 15:08:20:820 -- http: POST -- /register -- - -- 200 -- 65 - 4.650 ms
+2021-02-01 -- 15:08:29:829 -- info: The path exists, add new user
+2021-02-01 -- 15:08:29:829 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:08:29:829 -- http: POST -- /register -- - -- 200 -- 66 - 4.459 ms
+2021-02-01 -- 15:09:01:91 -- info: listening on port 3000
+2021-02-01 -- 15:09:03:93 -- info: The path exists, add new user
+2021-02-01 -- 15:09:03:93 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:09:03:93 -- http: POST -- /register -- - -- 200 -- 66 - 23.296 ms
+2021-02-01 -- 15:10:06:106 -- info: listening on port 3000
+2021-02-01 -- 15:10:10:1010 -- info: The path exists, add new user
+2021-02-01 -- 15:10:10:1010 -- debug: User not exist -->Register
+2021-02-01 -- 15:10:10:1010 -- info: The path exists, add new user
+2021-02-01 -- 15:10:10:1010 -- info: The path exists, add new user
+2021-02-01 -- 15:10:10:1010 -- debug: Register new user sucessfull
+2021-02-01 -- 15:10:10:1010 -- http: POST -- /register -- - -- 200 -- 39 - 146.368 ms
+2021-02-01 -- 15:11:29:1129 -- info: listening on port 3000
+2021-02-01 -- 15:11:33:1133 -- debug: User not exist -->Register
+2021-02-01 -- 15:11:33:1133 -- debug: Register new user sucessfull
+2021-02-01 -- 15:11:33:1133 -- http: POST -- /register -- - -- 200 -- 39 - 153.612 ms
+2021-02-01 -- 15:11:38:1138 -- debug: User not exist -->Register
+2021-02-01 -- 15:11:38:1138 -- debug: Register new user sucessfull
+2021-02-01 -- 15:11:38:1138 -- http: POST -- /register -- - -- 200 -- 39 - 140.854 ms
+2021-02-01 -- 15:12:36:1236 -- info: listening on port 3000
+2021-02-01 -- 15:12:39:1239 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:12:39:1239 -- http: POST -- /register -- - -- 200 -- 66 - 17.386 ms
+2021-02-01 -- 15:14:43:1443 -- info: listening on port 3000
+2021-02-01 -- 15:14:46:1446 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:14:46:1446 -- http: POST -- /register -- - -- 200 -- 66 - 19.118 ms
+2021-02-01 -- 15:15:08:158 -- info: listening on port 3000
+2021-02-01 -- 15:15:11:1511 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:15:11:1511 -- http: POST -- /register -- - -- 200 -- 66 - 25.925 ms
+2021-02-01 -- 15:15:24:1524 -- info: listening on port 3000
+2021-02-01 -- 15:15:27:1527 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:15:27:1527 -- http: POST -- /register -- - -- 200 -- 66 - 15.525 ms
+2021-02-01 -- 15:15:47:1547 -- info: The user with email usee2wr@user5w5.com already exists
+2021-02-01 -- 15:15:47:1547 -- http: POST -- /register -- - -- 200 -- 66 - 6.014 ms
+2021-02-01 -- 15:15:52:1552 -- debug: User not exist -->Register
+2021-02-01 -- 15:15:52:1552 -- debug: Register new user sucessfull
+2021-02-01 -- 15:15:52:1552 -- http: POST -- /register -- - -- 200 -- 39 - 120.935 ms
+2021-02-01 -- 15:15:55:1555 -- info: The user with email usee2rwr@user5w5.com already exists
+2021-02-01 -- 15:15:55:1555 -- http: POST -- /register -- - -- 200 -- 67 - 2.173 ms
+2021-02-01 -- 15:16:39:1639 -- info: listening on port 3000
+2021-02-01 -- 15:16:43:1643 -- debug: usee2rwr@user5w5.com
+2021-02-01 -- 15:16:43:1643 -- info: The user with email usee2rwr@user5w5.com already exists
+2021-02-01 -- 15:16:43:1643 -- http: POST -- /register -- - -- 200 -- 67 - 27.232 ms
+2021-02-01 -- 15:17:00:170 -- debug: 
+2021-02-01 -- 15:17:00:170 -- debug: User not exist -->Register
+2021-02-01 -- 15:17:00:170 -- debug: Register new user sucessfull
+2021-02-01 -- 15:17:00:170 -- http: POST -- /register -- - -- 200 -- 39 - 131.680 ms
+2021-02-01 -- 15:29:51:2951 -- info: listening on port 3000
+2021-02-01 -- 15:29:57:2957 -- debug: Parameters are valid for register
+2021-02-01 -- 15:29:57:2957 -- debug: usesdfrwr@user5w5.com
+2021-02-01 -- 15:29:57:2957 -- info: The user with email usesdfrwr@user5w5.com already exists
+2021-02-01 -- 15:29:57:2957 -- http: POST -- /register -- - -- 200 -- 68 - 14.926 ms
+2021-02-01 -- 15:30:01:301 -- debug: Parameters are valid for register
+2021-02-01 -- 15:30:01:301 -- debug: 
+2021-02-01 -- 15:30:01:301 -- debug: User not exist -->Register
+2021-02-01 -- 15:30:01:301 -- debug: Register new user sucessfull
+2021-02-01 -- 15:30:01:301 -- http: POST -- /register -- - -- 200 -- 39 - 127.452 ms
+2021-02-01 -- 15:30:08:308 -- error: Email must have the following structure: name@xxxx.[com, es, net]
+2021-02-01 -- 15:30:08:308 -- http: POST -- /register -- - -- 500 -- 77 - 4.096 ms
+2021-02-01 -- 15:30:15:3015 -- error: The name entered is not valid
+2021-02-01 -- 15:30:15:3015 -- http: POST -- /register -- - -- 500 -- 41 - 1.543 ms
+2021-02-01 -- 15:30:20:3020 -- debug: Parameters are valid for register
+2021-02-01 -- 15:30:20:3020 -- debug: usesdfrrwr@user5w5.com
+2021-02-01 -- 15:30:20:3020 -- info: The user with email usesdfrrwr@user5w5.com already exists
+2021-02-01 -- 15:30:20:3020 -- http: POST -- /register -- - -- 200 -- 69 - 3.983 ms
+2021-02-01 -- 15:30:40:3040 -- info: listening on port 3000
+2021-02-01 -- 15:30:43:3043 -- debug: Parameters are valid for register
+2021-02-01 -- 15:30:43:3043 -- debug: usesdfrrwr@user5w5.com
+2021-02-01 -- 15:30:43:3043 -- error: The user with email usesdfrrwr@user5w5.com already exists
+2021-02-01 -- 15:30:43:3043 -- http: POST -- /register -- - -- 200 -- 69 - 15.799 ms
+2021-02-01 -- 15:30:53:3053 -- error: Email must have the following structure: name@xxxx.[com, es, net]
+2021-02-01 -- 15:30:53:3053 -- http: POST -- /register -- - -- 500 -- 77 - 3.899 ms
+2021-02-01 -- 15:30:59:3059 -- debug: Parameters are valid for register
+2021-02-01 -- 15:30:59:3059 -- debug: usesdfrrwr@user5w5.com
+2021-02-01 -- 15:30:59:3059 -- error: The user with email usesdfrrwr@user5w5.com already exists
+2021-02-01 -- 15:30:59:3059 -- http: POST -- /register -- - -- 200 -- 69 - 3.815 ms
+2021-02-01 -- 15:31:02:312 -- debug: Parameters are valid for register
+2021-02-01 -- 15:31:02:312 -- debug: 
+2021-02-01 -- 15:31:02:312 -- debug: User not exist -->Register
+2021-02-01 -- 15:31:02:312 -- debug: Register new user sucessfull
+2021-02-01 -- 15:31:02:312 -- http: POST -- /register -- - -- 200 -- 39 - 131.771 ms

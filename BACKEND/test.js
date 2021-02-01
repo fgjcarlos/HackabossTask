@@ -1,4 +1,4 @@
-const fileData = '/home/fgjcarlos/Escritorio/HackABoss/HackabossTask/BACKEND/db/db.json';
+const fileData = './db/db.json';
 const jsonfile = require('jsonfile');
 const fs = require('fs');
 
@@ -9,7 +9,7 @@ const h = async() =>{
     try {
 
         await existFile(fileData);
- 
+
     let   res = await jsonfile.readFileSync(fileData);
 
     let o = {
@@ -30,24 +30,24 @@ const h = async() =>{
 
    await jsonfile.writeFileSync(fileData, res);
   //  await fs.writeFileSync(fileData,{encoding:'utf8'} );
-    
+
 
 //     res =await  fs.readFileSync('./db/db.json', {encoding:'utf8', flag:'r'}); res =await  fs.readFileSync(fileData, {encoding:'utf8', flag:'r'});
 
     res =  await jsonfile.readFileSync(fileData);
-    
+
    console.log('res:', res)
 
     } catch (error) {
         console.log('error', error)
     }
-   
+
 
 }
 
 
 const existFile =async () => {
-   
+
 
     console.log('exsis??')
 
