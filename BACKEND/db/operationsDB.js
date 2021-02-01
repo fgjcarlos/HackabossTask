@@ -12,6 +12,17 @@ const getInfoDB = async () => {
     return await jsonfile.readFileSync(fileData);
 }
 
+
+const getUserDB= async(email) =>{
+
+let allUsers = await getInfoDB();
+
+let user = allUsers.find(item => item['Email'] === email);
+
+return user;
+
+}
+
 const insertNewUser = async (newUser) => {
 
        // Checkif exist file
@@ -36,5 +47,6 @@ const existFile = async () => {
 
 module.exports = {
     getInfoDB,
-    insertNewUser
+    insertNewUser,
+    getUserDB
 }

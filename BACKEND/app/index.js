@@ -11,8 +11,13 @@ const app = express();
 // Routes
  const routerHome = require('../routes/home');
  const routerRegister = require('../routes/register');
- 
+ const routerLogin = require('../routes/login');
+ const routerVipaccess = require('../routes/routerVipaccess');
+ const routerRoot =  require('../routes/root');
+
 // Middlewares
+const {isAuthenticated} = require('../middelwares/auth');
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -25,6 +30,11 @@ app.use(logger.requests);
  app.use('/home', routerHome);
 // Regsiter
 app.use('/register', routerRegister );
+// Login
+app.use('/login', routerLogin);
+// Private accses
+app.use('/vipaccess',isAuthenticated, routerVipaccess);
+
 
 // **** Router not found ****
 // No router found handler
@@ -36,8 +46,10 @@ app.use((req, res, next) => {
         level: 'warn',
     });
 
-
 });
+
+//root
+app.use('/',isAuthenticated, routerRoot);
 
 app.use((err, req, res, next) => {
 
@@ -48,7 +60,7 @@ app.use((err, req, res, next) => {
     logger[level](log);
 
     res.status(statusCode);
-    res.json({ message });
+return    res.json({ message });
 
 });
 

@@ -22,9 +22,8 @@ const register = async (req, res) => { // 1. Get params
         let msgInfo = 'Register new user sucessfull';
 
         logger.debug(msgInfo);
-        res.json({info: msgInfo});
+      return  res.json({info: msgInfo});
     } catch (e) {
-        console.log(e)
 
         let msgError = ('Error in REGISTER', e.message);
         logger.error(msgError);

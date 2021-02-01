@@ -7,7 +7,7 @@ const homePage = (req, res, error) => {
     let msgInfo = 'Home page';
 
     logger.info(msgInfo);
-    res.json({ info: msgInfo });
+return    res.json({ info: msgInfo });
 }
 
 
